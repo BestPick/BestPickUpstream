@@ -22,7 +22,7 @@
 
 h1 {
   text-align: center;
-  margin-top: 120px;
+  margin-top: 100px;
   margin-left: 40px;
 }
 
@@ -33,19 +33,26 @@ h1 {
 }
 
 .home__btn-container {
+  bottom: 20px;
   text-align: center;
 }
 
 .home__btn-orange{
   background-image: url(../assets/home-orange-phone.png);
   height:400px;
-  width:202px;
+  width:204px;
+  margin-left:40px;
+  margin-right:40px;
+  border-radius: 15px;
+  border:none;
 }
 
 .home__btn-white{
   background-image: url(../assets/home-white-phone.png);
   height:400px;
-  width:202px;
+  width:204px;
+  border:none;
+  border-radius: 15px;
 }
 
 .nav {
@@ -54,11 +61,13 @@ h1 {
   width: 100%;
   background-color: orange;
   z-index: 100;
+  left: 0px;
+  right: 0px;
 }
 
 .nav__container {
   display: flex;
-  height: 200px;
+  height: 170px;
   padding-right: 0;
   margin-bottom: 40px;
   font-family:Arial, Helvetica, sans-serif;
