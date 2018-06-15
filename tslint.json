@@ -2,7 +2,12 @@
   "rulesDirectory": [
     "node_modules/codelyzer"
   ],
+  "extends": [
+    "tslint-eslint-rules"
+  ],
   "rules": {
+    "no-constant-condition": true,
+    "ter-indent": true,
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
@@ -23,7 +28,8 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "spaces",
+      4
     ],
     "interface-over-type-literal": true,
     "label-position": true,
