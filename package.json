@@ -1,6 +1,7 @@
 {
   "name": "bps",
   "version": "0.0.0",
+  "sasslintConfig": "./sass-lint.yml",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -44,6 +45,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.3.0",
     "sass-lint": "^1.12.1",
+    "sass-lint-cli": "0.0.5",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "tslint-eslint-rules": "^5.3.1",
