@@ -1,0 +1,78 @@
+.home {
+    position: relative;
+}
+
+.home__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh);
+    padding-top: 15px;
+    padding-bottom: (80);
+}
+
+.home__box {
+    margin: 0 auto 0 auto;
+    position: relative;
+    width: 450px;
+    padding: 60px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.home__headline {
+    margin-bottom: (40);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.home__btn-container {
+    bottom: 20px;
+    text-align: center;
+}
+
+.home__btn-orange{
+    background-image: url(../../assets/images/home-orange-phone.png);
+    border-radius: 15px;
+    border:none;
+    height: auto;
+    max-width: 100%;
+}
+
+.home__btn-white{
+    background-image: url(../../assets/images/home-white-phone.png);
+    border:none;
+    border-radius: 15px;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: orange;
+    z-index: 100;
+    left: 0px;
+    right: 0px;
+}
+
+.nav__container {
+    display: flex;
+    height: 170px;
+    padding-right: 0;
+    margin-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+    .rtl :host & {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+}
