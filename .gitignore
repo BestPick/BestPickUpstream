@@ -67,5 +67,13 @@ Temporary Items
 !.vscode/extensions.json
 .history
 
+### ApacheCordova ###
+# Apache Cordova generated files and directories
+# Cordova
+cordova/node_modules/
+cordova/platforms/
+cordova/plugins
+cordova/www/
+UserInterfaceState.xcuserstate
 
 # End of https://www.gitignore.io/api/macos,angular,visualstudiocode
