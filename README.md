@@ -25,3 +25,63 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Installing Dependencies
+
+Install the npm dependencies.
+
+```shell
+npm install
+```
+
+## Building the Cordova-based app
+
+Xcode and Android Studio are required to be installed to build the iOS and Android apps respectively.
+
+Make sure Android Studio works and all license agreements are accepted. An easy way would be to create a barebones app from an Android Studio prject template and run it in the simulator. You might also need to install Android File Transfer.
+
+### Installing Cordova
+
+```shell
+sudo npm install -g cordova
+sudo npm install -g ios-deploy
+```
+
+### Configuring and building the Angular app for Cordova
+
+Then build the app:
+
+```shell
+npm run build:cordova
+
+cd cordova
+
+# Might require sudo on first time
+cordova prepare
+
+# Optional. Check requirements
+cordova requirements
+
+# Build all platforms
+cordova build
+```
+
+### Running the iOS app
+
+```shell
+cordova run ios
+```
+
+### Running the Android app
+
+```shell
+cordova run android
+```
+
+### Runing in the browser (Cordova)
+
+```shell
+cordova run browser
+```
+
+Note: If the emulator does not launch automatically, try running it before running the app.
