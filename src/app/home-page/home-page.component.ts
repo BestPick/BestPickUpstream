@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as firebase from 'firebase/app';
 @Component({
     selector: 'app-home-page',
     templateUrl: './home-page.component.html',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-    constructor() { }
+    constructor() {
+        firebase.database().ref('phones/small')
+    }
 
     ngOnInit() {
     }
