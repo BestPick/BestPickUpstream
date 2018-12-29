@@ -6,6 +6,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SizeComponent } from './size/size.component';
 import { BrandComponent } from './brand/brand.component';
 import { BudgetComponent } from './budget/budget.component';
+import { BestPickComponent } from './best-pick/best-pick.component';
 
 @NgModule({
     declarations: [
@@ -13,7 +14,8 @@ import { BudgetComponent } from './budget/budget.component';
         HomePageComponent,
         SizeComponent,
         BrandComponent,
-        BudgetComponent
+        BudgetComponent,
+        BestPickComponent
     ],
     imports: [
         BrowserModule
