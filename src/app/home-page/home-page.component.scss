@@ -1,9 +1,15 @@
 .home {
     position: relative;
 }
-
+.navbar-brand{
+    margin-left:20px;
+}
 .home__container {
     display: flex;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
     align-items: center;
     justify-content: center;
     min-height: calc(100vh);
@@ -35,20 +41,34 @@ h1 {
 .home__btn-container {
     bottom: 20px;
     text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__btn-orange{
-    background-image: url(../../assets/images/home-orange-phone.png);
-    border-radius: 15px;
+    background-image: url(../../assets/images/home-orange-phone.pdf);
+    border-radius: 7px;
+    display:inline-block;
     border:none;
-    height: auto;
+    text-align: center;
+    width: 106px;
+    height: 209px;
     max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__btn-white{
-    background-image: url(../../assets/images/home-white-phone.png);
+    background-image: url(../../assets/images/home-white-phone.pdf);
     border:none;
-    border-radius: 15px;
+    display:inline-block;
+    text-align: center;
+    width: 106px;
+    height: 209px;
+    border-radius: 7px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav {
