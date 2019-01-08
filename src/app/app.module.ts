@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SizeComponent } from './size/size.component';
@@ -15,10 +14,10 @@ import { BestPickComponent } from './best-pick/best-pick.component';
         SizeComponent,
         BrandComponent,
         BudgetComponent,
-        BestPickComponent
+        BestPickComponent,
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
