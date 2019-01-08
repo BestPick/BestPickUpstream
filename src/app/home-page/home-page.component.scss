@@ -1,98 +1,98 @@
 .home {
-    position: relative;
+  position: relative;
 }
-.navbar-brand{
-    margin-left:20px;
+
+.navbar-brand {
+  margin-left: 20px;
 }
+
 .home__container {
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    min-height: calc(100vh);
-    padding-top: 15px;
-    padding-bottom: (80);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh);
+  padding-top: 15px;
+  padding-bottom: (80);
 }
 
 .home__box {
-    margin: 0 auto 0 auto;
-    position: relative;
-    width: 450px;
-    padding: 60px 20px;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px 0;
+  margin: 0 auto 0 auto;
+  position: relative;
+  width: 450px;
+  padding: 60px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 40px;
 }
 
 .home__headline {
-    margin-bottom: (40);
-    font-family:Arial, Helvetica, sans-serif;
-    color:white;
+  margin-bottom: (40);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .home__btn-container {
-    bottom: 20px;
-    text-align: center;
-    display: flex;
+  display: flex;
+  bottom: 20px;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.home__btn-orange{
-    background-image: url(../../assets/images/home-orange-phone.pdf);
-    border-radius: 7px;
-    display:inline-block;
-    border:none;
-    text-align: center;
-    width: 106px;
-    height: 209px;
-    max-width: 100%;
+.home__btn-orange {
+  display: inline-block;
+  background-image: url(../../assets/images/home-orange-phone.pdf);
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+  width: 106px;
+  height: 209px;
+  max-width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.home__btn-white{
-    background-image: url(../../assets/images/home-white-phone.pdf);
-    border:none;
-    display:inline-block;
-    text-align: center;
-    width: 106px;
-    height: 209px;
-    border-radius: 7px;
+.home__btn-white {
+  display: inline-block;
+  background-image: url(../../assets/images/home-white-phone.pdf);
+  border: none;
+  text-align: center;
+  width: 106px;
+  height: 209px;
+  border-radius: 7px;
   justify-content: center;
   align-items: center;
 }
 
 .nav {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: orange;
-    z-index: 100;
-    left: 0px;
-    right: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: orange;
+  z-index: 100;
+  left: 0px;
+  right: 0px;
 }
 
 .nav__container {
-    display: flex;
-    height: 170px;
-    padding-right: 0;
-    margin-bottom: 40px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 40px;
-    text-align: center;
+  .rtl :host & {
+    padding-left: 0;
+    padding-right: 15px;
+  }
 
-    .rtl :host & {
-        padding-left: 0;
-        padding-right: 15px;
-    }
+  display: flex;
+  height: 170px;
+  padding-right: 0;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
